@@ -1,0 +1,16 @@
+{
+  "title": "ATG Wheelchair",
+  "name": "atgwheelchair",
+  "version": "0.0.1",
+  "description": "When kludges for ATG\\OC dyn/admin are not enough",
+  "main": "index.js",
+  "author": "Ruslan_Karpov@epam.com",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "atg"
+  ]
+}

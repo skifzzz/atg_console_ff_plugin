@@ -1,0 +1,58 @@
+#console {
+  position: fixed;
+  width: 100%;
+  z-index:10;
+}
+
+.boxsizingBorder {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.ACItem {
+    display: block;
+    padding: 5px 10px;
+    border-bottom: 1px solid #DDD;
+    cursor: pointer;
+    /* border-top: 1px solid #C8C8C8; */
+}
+
+.ACItem.hidden {
+    display: none;
+}
+.ACItem.current {
+    background: #3366FF;
+    color: white;
+}
+
+#ACItemsList {
+    /*width: 100px;*/
+    list-style:none;
+    padding:0;
+    margin:auto;
+    overflow-y: auto;
+    padding-left: 0px;
+    max-height: 180px;
+    /*z-index: 10;*/
+}
+
+#ACItemsContainer {
+    position:fixed; 
+    /*position:relative;*/
+/*    top: 0;
+    left: 0;*/
+     display: none; 
+    /*display: block;*/
+    margin-top: 18px;
+    background: white;
+    color: black;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    min-width: 120px;
+    max-height: 180px;
+    padding-left: 0px;
+    overflow-y: auto;
+    z-index: 100;
+}
